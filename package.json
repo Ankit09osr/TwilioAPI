@@ -1,0 +1,25 @@
+{
+  "name": "twilio-api",
+  "version": "1.0.0",
+  "description": "Node.js Tip Calculator App Using Twilio API for purpose of learning!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankit09osr/twilio-api.git"
+  },
+  "author": "Ankit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankit09osr/twilio-api/issues"
+  },
+  "homepage": "https://github.com/Ankit09osr/twilio-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "twilio": "^3.26.0"
+  }
+}
