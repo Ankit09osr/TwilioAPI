@@ -2,6 +2,9 @@
 Node.js Tip Calculator App Using Twilio API for purpose of learning!
 ------
 
+# App Demo
+![](Tip-Calculator.gif)
+
 ***Instructions to run the application***
 
 #### 1. Create an account on [Twilio](http://twilio.com).
@@ -31,3 +34,5 @@ Node.js Tip Calculator App Using Twilio API for purpose of learning!
 
 ### Congratulations!
 - You will recieve a message if everything went well and now use Tip Calculator App.
+
+### Star this application if you like it on top right!
