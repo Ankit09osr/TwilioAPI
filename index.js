@@ -28,5 +28,14 @@ client.messages
   .then(message => console.log(message.sid))
   .done();
 
+// SMS post request from phone number
+app.post('/sms', (req, res) => {
+  const amount  = req.body.Body;
+  const twiml = new MessagingResponse();
+  twiml.message(tipCalculator(amount));
+  res.writeHead(200, {'Content-Type': 'text/xml'});
+  res.end(twiml.toString());
+});
+
 // Start the server, and have it listen on port 3001
 app.listen(port, () => console.log(`App listening on port ${port}!`));
