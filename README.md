@@ -3,7 +3,7 @@ Node.js Tip Calculator App Using Twilio API for purpose of learning!
 ------
 
 # App Demo
-![](Tip-Calculator.gif | width=100)
+![](Tip-Calculator.gif)
 
 ***Instructions to run the application***
 
